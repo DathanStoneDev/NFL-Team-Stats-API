@@ -1,5 +1,6 @@
 package com.example.nflsitescrapingapi.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
@@ -12,10 +13,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
+    @Value("${swagger.host.url}")
+    private String host;
+
         @Bean
         public Docket api() {
             return new Docket(DocumentationType.SWAGGER_2)
-                    .host("https://nfl-team-stat-tracker.herokuapp.com/")
+                    .host(host)
                     .select()
                     .apis(RequestHandlerSelectors.any())
                     .paths(PathSelectors.any())
