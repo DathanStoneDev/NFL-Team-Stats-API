@@ -18,6 +18,6 @@ public class SwaggerConfig {
                     .select()
                     .apis(RequestHandlerSelectors.any())
                     .paths(PathSelectors.any())
-                    .build();
+                    .build().host("https://nfl-team-stat-tracker.herokuapp.com/");
         }
 }
