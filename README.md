@@ -8,6 +8,6 @@ This NFL Team Stat Tracker API provides up-to-date data whenever an endpoint is 
 - Documentation: Swagger-UI (v3.0.0)
 
 # Hosted
-* Hosted on heroku - Checkout the link here for Swagger-UI Documentation and play around with the API: https://nfl-team-stat-tracker.herokuapp.com/swagger-ui/.
+* Hosted on heroku - Checkout the link here for Swagger-UI Documentation and play around with the API: https://nfl-team-stat-tracker.herokuapp.com/swagger-ui/. Please be patient! Free Tier is nice and slow :D!
 * Checkout RapidAPI where you can also access the API for free, public use: https://rapidapi.com/DathanStoneDev/api/nfl-team-stats/
 
