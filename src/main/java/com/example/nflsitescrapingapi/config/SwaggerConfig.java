@@ -30,12 +30,12 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
        return new ApiInfo(
                "NFL Team Stat Tracker API",
-               "API that serves up-to-date NFL Team Stat Data.",
+               "RESTFUL API that serves up-to-date NFL Team Stat Data.",
                "v1",
                "Free To Use",
-               new Contact("Dathan Stone", "/", "developer.stone@outlook.com"),
+               new Contact("Dathan Stone", "https://devstone.io", "developer.stone@outlook.com"),
                "/",
-               "/",
+               "https://github.com/DathanStoneDev",
                Collections.emptyList());
     }
 }
