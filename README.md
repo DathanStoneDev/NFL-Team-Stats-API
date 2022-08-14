@@ -55,7 +55,7 @@ The NFL Team Stat Tracker can provide updated stats with every endpoint call due
 
 # Try It Out!
 
-### This API is hosted on a Free Tier of Heroku, so the initial response time for the first query may take 10+ Seconds, and then it's much faster after that!
-:small_blue_diamond: [Swagger UI Documentation](https://nfl-team-stat-tracker.herokuapp.com/swagger-ui/#/NFL%20Stats%20Queries): Test the API here! <br/>
+### This API is hosted on AWS using Elastic Beanstalk!
+:small_blue_diamond: [Swagger UI Documentation](http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/swagger-ui/): Test the API here! <br/>
 :small_blue_diamond: [RapidAPI](https://rapidapi.com/DathanStoneDev/api/nfl-team-stats/): Access the API for free, public use. <br/>
 
